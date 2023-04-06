@@ -1,0 +1,14 @@
+{
+  "lspconfig": {
+    "lua_ls": {
+      "Lua.format.enable": true,
+      "Lua.format.defaultConfig": {
+        "indent_style": "space",
+        "indent_size": "2"
+      }
+    },
+    "yamlls": {
+      "yaml.keyOrdering": false
+    }
+  }
+}
