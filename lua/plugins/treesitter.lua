@@ -20,7 +20,6 @@ return {
       "gitignore",
       "graphql",
       "haskell",
-      "help",
       "html",
       "ini",
       "javascript",
