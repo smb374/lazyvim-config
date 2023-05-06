@@ -9,7 +9,7 @@ return {
         nls.builtins.formatting.shfmt,
         nls.builtins.diagnostics.flake8,
         nls.builtins.formatting.black.with({
-          extra_args = { "--preview", "-l", "79" },
+          extra_args = { "--preview", "-l", "79", "-C" },
         }),
       },
     }
