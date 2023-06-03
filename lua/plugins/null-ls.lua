@@ -8,9 +8,11 @@ return {
         nls.builtins.formatting.stylua,
         nls.builtins.formatting.shfmt,
         nls.builtins.diagnostics.flake8,
-        nls.builtins.formatting.black.with({
-          extra_args = { "--preview", "-l", "79", "-C" },
-        }),
+        nls.builtins.formatting.yapf,
+        -- nls.builtins.formatting.black.with({
+        --   extra_args = { "--preview", "-l", "79", "-C" },
+        -- }),
+        nls.builtins.formatting.nixpkgs_fmt,
       },
     }
   end,
