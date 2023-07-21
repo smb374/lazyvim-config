@@ -28,19 +28,27 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  install = { colorscheme = { "catppuccin", "tokyonight", "habamax" } },
+  ui = {
+    icons = {
+      loaded = "",
+      not_loaded = "",
+    },
+  },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {
       -- disable some rtp plugins
       disabled_plugins = {
+        "2html_plugin",
+        "getscript",
+        "getscriptPlugin",
         "gzip",
-        -- "matchit",
-        -- "matchparen",
-        -- "netrwPlugin",
+        "tar",
         "tarPlugin",
         "tohtml",
         "tutor",
+        "zip",
         "zipPlugin",
       },
     },
