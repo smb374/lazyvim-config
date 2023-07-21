@@ -14,6 +14,7 @@ return {
       "marksman",
       "nil",
       "prettier",
+      "rust-analyzer",
       "shellcheck",
       "shfmt",
       "stylua",
