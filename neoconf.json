@@ -11,12 +11,11 @@
       "yaml.keyOrdering": false
     },
     "clangd": {
-      "clangd.arguments": [
-        "--header-insertion=never"
-      ]
+      "clangd.arguments": ["--header-insertion=never"]
     },
     "rust_analyzer": {
-      "rust-analyzer.check.command": "clippy"
+      "rust-analyzer.check.command": "clippy",
+      "rust-analyzer.cargo.features": ["all"]
     }
   }
 }
