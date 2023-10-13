@@ -26,7 +26,7 @@ return {
         ["<Up>"] = cmp.config.disable,
         ["<Down>"] = cmp.config.disable,
         ["<CR>"] = cmp.config.disable,
-        ["<Space>"] = cmp.mapping.confirm({ select = false }),
+        ["<Return>"] = cmp.mapping.confirm({ select = false }),
         ["<Tab>"] = cmp.mapping(function(fallback)
           if cmp.visible() then
             cmp.select_next_item()
