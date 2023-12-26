@@ -4,3 +4,4 @@
 
 -- vim.opt.smartindent = false
 -- vim.opt.autoindent = true
+vim.opt.colorcolumn = "90"
