@@ -23,6 +23,4 @@ map("x", "<", "<gv", { noremap = true })
 map("n", "<M-left>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Go to previous tab" })
 map("n", "<M-right>", "<cmd>BufferLineCycleNext<cr>", { desc = "Go to next tab" })
 
-map("n", "<leader>gg", "<cmd>LazyGit<cr>", { desc = "Toggle LazyGit" })
-
-map("n", "<leader>k", vim.lsp.buf.hover, { desc = "Hover doc." })
+map("n", "<leader>gg", "<cmd>Neogit<cr>", { desc = "Open Neogit" })

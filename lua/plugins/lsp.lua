@@ -8,9 +8,9 @@ return {
       ["ocamllsp"] = {
         mason = false,
       },
-      --   ["zls"] = {
-      --     mason = false,
-      --   },
+      ["zls"] = {
+        mason = false,
+      },
     },
   },
 }
