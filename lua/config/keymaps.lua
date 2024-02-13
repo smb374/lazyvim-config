@@ -22,5 +22,3 @@ map("x", "<", "<gv", { noremap = true })
 
 map("n", "<M-left>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Go to previous tab" })
 map("n", "<M-right>", "<cmd>BufferLineCycleNext<cr>", { desc = "Go to next tab" })
-
-map("n", "<leader>gg", "<cmd>Neogit<cr>", { desc = "Open Neogit" })

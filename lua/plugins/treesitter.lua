@@ -64,6 +64,7 @@ return {
       "python",
       "r",
       "rasi",
+      "regex",
       "ron",
       "rst",
       "ruby",
