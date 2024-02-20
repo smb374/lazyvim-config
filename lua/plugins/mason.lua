@@ -7,8 +7,7 @@ return {
       "docker-compose-language-service",
       "json-lsp",
       "ltex-ls",
-      "marksman",
-      "nil",
+      "markdownlint",
       "prettier",
       "shellcheck",
       "shfmt",
@@ -17,7 +16,6 @@ return {
       "typst-lsp",
       "vim-language-server",
       "yaml-language-server",
-      "zls",
     },
     ui = {
       icons = {
